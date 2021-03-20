@@ -1,5 +1,6 @@
-bokeh==2.3.0
+streamlit
+bokeh
 pandas
-plotly==4.14.3
-streamlit==0.78.0
+plotly
+
 
