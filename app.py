@@ -2,16 +2,14 @@ import streamlit as st
 import pandas as pd
 import random
 import base64
-#import matplotlib.pyplot as plt
-#import csv
 from plotly.subplots import make_subplots
 import plotly.express as px
 #import numpy as np
 import plotly.graph_objects as go
-from bokeh.plotting import figure
+
 
 #st.set_page_config(layout="wide")
-st.markdown('<style>h1{color: red;}</style>', unsafe_allow_html=True)
+#st.markdown('<style>h1{color: red;}</style>', unsafe_allow_html=True)
 st.title('Data Plots / Stats')
 st.subheader('Create plots and show main stats for each parameter')
 
@@ -128,14 +126,6 @@ if uploaded_csv_file:
             if check_box_single_plot:
                 st.subheader('Create a separate figure for each selected parameter')
                 single_plots(file, list_of_parameters)
-
-
-
-
-
-
-
-
 
 
 hide_footer_style = """
